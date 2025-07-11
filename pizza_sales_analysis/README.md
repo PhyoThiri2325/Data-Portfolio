@@ -138,7 +138,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders DESC;
 ```
-![Top 5 Pizzas by Total Orders](images/Top5_ByOrder.png)
+![Top 5 Pizzas by Total Orders](images/Top5_byOrder.png)
 
 - **Bottom 5 Pizzas by Total Orders**
 ```sql
