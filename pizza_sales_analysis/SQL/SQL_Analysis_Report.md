@@ -28,7 +28,7 @@ Imported the dataset into SQL Server as a table named `pizza_sales`.
 ```sql
 SELECT SUM(total_price) AS Total_Revenue FROM pizza_sales;
 ```
-![Total Revenue](images/TotalRevenue.png)
+![Total Revenue](../images/TotalRevenue.png)
 
 - **Average Order Value**  
 ```sql
