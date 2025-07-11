@@ -13,7 +13,7 @@ This report focuses on the key insights derived from the interactive Power BI da
 
 This dashboard provides an overall view of key performance indicators (KPIs) and general sales trends. It summarizes total revenue, average order value, total pizzas sold, total orders, and average pizzas per order. It also includes daily and monthly order trends, as well as sales distribution by pizza category and size.
 
-![Home Dashboard](pizza_sales_analysis/Home.png)
+![Home Dashboard](images/Home.png)
 
 #### Key Insights from Home Dashboard:
 
@@ -45,7 +45,7 @@ This dashboard provides an overall view of key performance indicators (KPIs) and
 
 This dashboard dives deeper into individual pizza performance, identifying the top and bottom performers based on revenue, quantity sold, and the number of orders.
 
-![Best/Worst Sellers Dashboard](pizza_sales_analysis/Best_Worst_Seller)
+![Best/Worst Sellers Dashboard](images/Best_Worst_Seller)
 
 #### Key Insights from Best/Worst Sellers Dashboard:
 
