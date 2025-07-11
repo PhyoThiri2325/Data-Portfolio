@@ -6,7 +6,7 @@ This project analyzes a pizza restaurant’s sales data to uncover business insi
 ---
 
 ## 📁 Dataset Used:
-- pizza_sales_analysis/pizza_sales.csv
+- <a href= "https://github.com/PhyoThiri2325/Data-Portfolio/blob/main/pizza_sales_analysis/pizza_sales.csv>Pizza Database</a>
 
 ---
 ## 🛠️ Tools Used:
