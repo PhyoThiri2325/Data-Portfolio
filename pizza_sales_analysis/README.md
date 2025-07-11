@@ -53,6 +53,7 @@ SELECT COUNT(DISTINCT order_id) AS Total_Orders FROM pizza_sales;
 SELECT CAST(CAST(SUM(quantity) AS DECIMAL(10,2)) /
 CAST(COUNT(DISTINCT order_id) AS DECIMAL(10,2)) AS DECIMAL(10,2)) AS Average_Pizza_Per_Order FROM pizza_sales;
 ```
+![Average Pizzas Per Order](images/Average_Pizza_Per_Order.png)
 
 ---
 
@@ -64,6 +65,7 @@ SELECT DATENAME(DW, order_date) AS Order_Day, COUNT(DISTINCT order_id) AS Total_
 FROM pizza_sales
 GROUP BY DATENAME(DW, order_date);
 ```
+![Orders by Day of the Week](images/Total_Order_Per_Day.png)
 
 - **Orders by Month**
 ```sql
@@ -72,6 +74,7 @@ FROM pizza_sales
 GROUP BY DATENAME(MONTH, order_date)
 ORDER BY Total_Order DESC;
 ```
+![Orders by Month](images/Total_Order_Per_Month.png)
 
 ---
 
@@ -84,6 +87,7 @@ SELECT pizza_category, SUM(total_price) AS total_sales,
 FROM pizza_sales 
 GROUP BY pizza_category;
 ```
+![Sales Percentage by Pizza Category](images/Total_sales_percentage.png)
 
 - **Sales Percentage by Pizza Size**
 ```sql
@@ -93,18 +97,11 @@ FROM pizza_sales
 GROUP BY pizza_size
 ORDER BY Sales_Percentage_By_Size DESC;
 ```
+![Sales Percentage by Pizza Size](images/Sales_percentage_by_size.png)
 
 ---
 
 ### Step 5: Best and Worst Sellers
-
-- **Top 5 Pizzas by Revenue**
-```sql
-SELECT TOP 5 pizza_name, SUM(total_price) AS Total_Revenue
-FROM pizza_sales
-GROUP BY pizza_name
-ORDER BY Total_Revenue DESC;
-```
 
 - **Bottom 5 Pizzas by Revenue**
 ```sql
@@ -113,6 +110,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Revenue ASC;
 ```
+![Bottom 5 Pizzas by Revenue](images/Bottom5_by_revenue.png)
 
 - **Top 5 Pizzas by Quantity Sold**
 ```sql
@@ -121,6 +119,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Quantity DESC;
 ```
+![Top 5 Pizzas by Quantity Sold](images/Top5_By_quantity.png)
 
 - **Bottom 5 Pizzas by Quantity Sold**
 ```sql
@@ -129,6 +128,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Quantity ASC;
 ```
+![Bottom 5 Pizzas by Quantity Sold](images/Bottom5_By_quantity.png)
 
 - **Top 5 Pizzas by Total Orders**
 ```sql
@@ -137,6 +137,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders DESC;
 ```
+![Top 5 Pizzas by Total Orders](images/Top5_ByOrder.png)
 
 - **Bottom 5 Pizzas by Total Orders**
 ```sql
@@ -145,6 +146,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders ASC;
 ```
+![Bottom 5 Pizzas by Total Orders](images/Bottom5_byOrder.png)
 
 ---
 
