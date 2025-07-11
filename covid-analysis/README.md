@@ -117,7 +117,6 @@ JOIN PortfolioProject..CovidVaccinations vac ON dea.location = vac.location AND 
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
-- T-SQL
 - Window Functions
 - CTEs, Temp Tables, Views
 
