@@ -77,7 +77,7 @@ This dashboard dives deeper into individual pizza performance, identifying the t
 * **Worst Sellers by Total Orders:**
     * **The Brie Carre Pizza** also receives the fewest orders.
 
-## Consolidated Key Findings and Recommendations
+## Key Findings and Recommendations
 
 * **Peak Demand Management:** High order volumes on Fridays, Saturdays, Thursdays and during July/May and January indicate a need for increased staffing, optimized inventory, and targeted promotions during these times.
 * **Menu Optimization:**
