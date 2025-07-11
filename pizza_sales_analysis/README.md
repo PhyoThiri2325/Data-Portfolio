@@ -6,7 +6,7 @@ This project analyzes a pizza restaurant’s sales data to uncover business insi
 ---
 
 ## 📁 Dataset Used:
-- <a href = "pizza_sales_analysis/pizza_sales.csv">Pizza Dataset</a>
+- pizza_sales_analysis/pizza_sales.csv
 
 ---
 ## 🛠️ Tools Used:
