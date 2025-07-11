@@ -145,8 +145,3 @@ JOIN PortfolioProject..CovidVaccinations vac ON dea.location = vac.location AND 
 2. Run the SQL script file (`Covid_SQL_Analysis.sql`) in SSMS.
 3. Explore or modify queries for your own insights.
 
----
-
-## 📬 Contact
-
-Have questions or feedback? Feel free to open an issue or connect with me!
