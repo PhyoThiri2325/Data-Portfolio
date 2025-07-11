@@ -45,7 +45,7 @@ This dashboard provides an overall view of key performance indicators (KPIs) and
 
 This dashboard dives deeper into individual pizza performance, identifying the top and bottom performers based on revenue, quantity sold, and the number of orders.
 
-![Best/Worst Sellers Dashboard](images/Best_Worst_Seller)
+![Best/Worst Sellers Dashboard](images/Best_Worst_Sellers.png)
 
 #### Key Insights from Best/Worst Sellers Dashboard:
 
