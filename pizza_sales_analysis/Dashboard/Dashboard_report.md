@@ -13,7 +13,7 @@ This report focuses on the key insights derived from the interactive Power BI da
 
 This dashboard provides an overall view of key performance indicators (KPIs) and general sales trends. It summarizes total revenue, average order value, total pizzas sold, total orders, and average pizzas per order. It also includes daily and monthly order trends, as well as sales distribution by pizza category and size.
 
-![Home Dashboard](images/Home.png)
+![Home Dashboard](../images/Home.png)
 
 #### Key Insights from Home Dashboard:
 
@@ -25,27 +25,33 @@ This dashboard provides an overall view of key performance indicators (KPIs) and
     * **Average Pizzas Per Order:** `2.32` (This indicates that on average, customers order about 2 to 3 pizzas per transaction.)
 
 * **Daily Trends:**
-    * **Busiest Days:** Orders are notably highest on **Fridays and Saturdays**, suggesting weekends are peak periods. Thursdays also show strong performance.
+    * **Busiest Days:** Orders are notably highest on **Fridays, and Saturdays**, suggesting weekends are peak periods. Thursdays also show strong performance.
     * **Quietest Day:** Sundays appear to be slightly less busy compared to weekdays.
 
 * **Monthly Trends:**
-    * **Peak Months:** The dashboard shows a significant peak in orders during **July and August**, followed by another strong period in **January**.
-    * **Lower Months:** October and November show a dip in orders, which could be seasonal or due to other factors.
+    * **Peak Months:** The dashboard shows a significant peak in orders during **July and May**, followed by another strong period in **January**.
+    * **Lower Months:** October and September show a dip in orders, which could be seasonal or due to other factors.
 
-* **Sales Distribution by Category:**
+* **Sales Percentage by Category:**
     * The **Classic** pizza category is the dominant performer, contributing the largest percentage of sales and total orders.
-    * **Supreme** and **Veggie** categories also hold substantial shares.
-    * **Chicken** is the lowest-contributing category.
+    * **Supreme** and **Chicken** categories also hold substantial shares.
+    * **Veggie** is the lowest-contributing category.
 
-* **Sales Distribution by Size:**
+* **Sales Percentage by Size:**
     * **Large** pizzas account for the highest percentage of total sales, indicating a strong preference for larger sizes or family orders.
-    * **Medium** and **Regular** sizes follow, while **XXL** and **X-Large** make up a smaller portion.
+    * **Medium** and **Regular** sizes follow, while **X-Large** and **XXL-Large** make up a smaller portion.
+
+* **Total Pizza Sold by Category:**
+    * **Classic** pizzas account for the highest number of sales, showing strong customer preference for traditional flavors.
+    * **Supreme** pizzas are the second most popular, likely due to their rich combination of toppings.
+    * **Veggie** pizzas follow, indicating a moderate interest in vegetarian options.
+    * **Chicken** pizzas make up the smallest portion of sales in this category.
 
 ### 2. Best/Worst Sellers Dashboard
 
 This dashboard dives deeper into individual pizza performance, identifying the top and bottom performers based on revenue, quantity sold, and the number of orders.
 
-![Best/Worst Sellers Dashboard](images/Best_Worst_Sellers.png)
+![Best/Worst Sellers Dashboard](../images/Best_Worst_Sellers.png)
 
 #### Key Insights from Best/Worst Sellers Dashboard:
 
@@ -63,7 +69,7 @@ This dashboard dives deeper into individual pizza performance, identifying the t
 
 * **Worst Sellers by Revenue:**
     * **The Brie Carre Pizza** consistently ranks as the lowest performer across all metrics.
-    * Other low-revenue pizzas include The Spinach Pesto & Ricotta and The Mediterranean.
+    * Other low-revenue pizzas include The Green Garden Pizza and The Spinach Supreme Pizza.
 
 * **Worst Sellers by Quantity Sold:**
     * Again, **The Brie Carre Pizza** sells the least in terms of quantity.
@@ -73,7 +79,7 @@ This dashboard dives deeper into individual pizza performance, identifying the t
 
 ## Consolidated Key Findings and Recommendations
 
-* **Peak Demand Management:** High order volumes on Fridays, Saturdays, and during July/August and January indicate a need for increased staffing, optimized inventory, and targeted promotions during these times.
+* **Peak Demand Management:** High order volumes on Fridays, Saturdays, Thursdays and during July/May and January indicate a need for increased staffing, optimized inventory, and targeted promotions during these times.
 * **Menu Optimization:**
     * **Promote Bestsellers:** Focus marketing efforts on "The Classic Deluxe Pizza" and "The Thai Chicken Pizza" as they are key drivers of quantity and revenue, respectively. Consider featuring them prominently.
     * **Re-evaluate Underperformers:** The "Brie Carre Pizza" is consistently the worst seller. Consider removing it from the menu, revamping its recipe, or offering it as a limited-time special to test new interest.
@@ -81,9 +87,3 @@ This dashboard dives deeper into individual pizza performance, identifying the t
 * **Category Focus:** Continue to emphasize the "Classic" pizza category and explore expanding offerings within this successful category. Address the lower performance of the "Chicken" category, perhaps through new recipes or targeted promotions.
 * **Customer Experience:** Given an average of 2.32 pizzas per order, explore bundling options or suggestive selling at checkout to gently encourage slightly higher order values (e.g., adding a side or drink).
 
-## Future Enhancements
-
-* **Interactive Dashboards:** Publish these dashboards online (e.g., Power BI Service) for interactive exploration by stakeholders.
-* **Profitability Analysis:** Integrate cost data to calculate gross profit margins for individual pizzas and categories.
-* **Customer Segmentation:** If customer IDs are available, segment customers based on purchasing behavior for personalized marketing.
-* **Geospatial Analysis:** If location data is available, analyze sales by region or delivery zone.
