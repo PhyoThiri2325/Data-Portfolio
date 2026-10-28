@@ -66,12 +66,19 @@ These tables are joined to analyse sales across different time periods and produ
 ## Project Structure
 
 ```text
-AdventureWorks-SQL-Analysis/
-├── 01_sales_overview.sql
-├── 02_sales_trends.sql
-├── 03_product_analysis.sql
-├── 04_deeper_analysis.sql
+## Project Structure
+
+```text
+adventure_works_sales_sql_project/
+├── scripts/
+│   ├── 01_Sales_overview.sql
+│   ├── 02_Sales_trend.sql
+│   ├── 03_Product_performance.sql
+│   └── 04_Deeper_analysis(CTEs).sql
 └── README.md
+```
+
+The `scripts` folder contains the SQL queries organised by analysis topic, while the README documents the project objectives, business questions, tools, and key findings.
 ```
 
 ## Dataset and Setup
