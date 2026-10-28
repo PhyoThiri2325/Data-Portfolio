@@ -72,7 +72,7 @@ These tables are joined to analyse sales across different time periods and produ
 adventure_works_sales_sql_project/
 ├── scripts/
 │   ├── 01_Sales_overview.sql
-│   ├── 02_Sales_trend.sql
+│   ├── 02_Sales_trends.sql
 │   ├── 03_Product_performance.sql
 │   └── 04_Deeper_analysis(CTEs).sql
 └── README.md
